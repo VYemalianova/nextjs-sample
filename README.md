@@ -1,1 +1,22 @@
-# nextjs-sample
+This is a [Next.js](https://nextjs.org) Example Project.
+
+## Tech Stack
+
+- [Sass](https://sass-lang.com/) - for custom component styles, variables, mixins, and complex styling logic
+- [Tailwind CSS](https://tailwindcss.com/) - for utility-based styling and layout
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
