@@ -2,11 +2,26 @@
 
 @theme {
   --spacing: 1px;
+
+  --color-black: #08030e;
+  --color-white: #ffffff;
+  --color-red: #b23925;
+  --color-gun-powder: #39353e;
+  --color-manatee: #8f8d9c;
+  --color-purple-01: #630cd2;
+  --color-purple-05: #e4d1f5;
+  --color-moon-raker: #e8dbf8;
+  --color-remy: #fee7ed;
+  --color-selago: #f4edfc;
+  --color-wisp-pink: #fef5f9;
+  --color-brink-pink: #f95f86;
+  --color-capric: #c19eed;
+  --color-sagittarius: #fcbfcf;
 }
 
 body {
-  background: #ffffff;
-  color: #08030e;
+  background: var(--color-white);
+  color: var(--color-black);
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
 }
