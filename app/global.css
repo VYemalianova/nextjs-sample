@@ -1,6 +1,8 @@
+@layer theme, base, mui, components, utilities;
+
 @import "tailwindcss";
 
-@theme {
+@theme static {
   --spacing: 1px;
 
   --color-black: #08030e;

@@ -1,0 +1,15 @@
+@use './mixins' as *;
+
+.bg-gradient {
+  &--moonraker-remy {
+    @include bg-gradient(--color-moon-raker, --color-remy);
+  }
+
+  &--selago-wisppink {
+    @include bg-gradient(--color-selago, --color-wisp-pink);
+  }
+
+  &--purple-brinkpink {
+    @include bg-gradient(--color-purple-01, --color-brink-pink);
+  }
+}
