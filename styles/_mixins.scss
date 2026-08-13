@@ -4,7 +4,6 @@
   line-height: $line-height;
 }
 
-
 @mixin bg-gradient($from, $to) {
   background: linear-gradient(to right, var($from), var($to));
 }

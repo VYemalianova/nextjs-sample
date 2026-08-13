@@ -13,3 +13,11 @@
     @include bg-gradient(--color-purple-01, --color-brink-pink);
   }
 }
+
+.text-gradient {
+  background: linear-gradient(90deg, var(--color-purple-01), var(--color-brink-pink));
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
