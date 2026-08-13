@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-import Providers from '../providers/Providers.tsx';
+import Providers from '../providers/Providers';
 
 import './global.css';
 import '@/styles/main.scss';
@@ -19,7 +19,9 @@ export default function RootLayout({
     <html lang="en">
       <body className="min-h-full flex flex-col">
         <Providers>
-          {children}
+          <header>Page header</header>
+          <main>{children}</main>
+          <footer>Page footer</footer>
         </Providers>
       </body>
     </html>

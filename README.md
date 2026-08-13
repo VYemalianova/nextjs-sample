@@ -4,6 +4,8 @@ This is a [Next.js](https://nextjs.org) Example Project.
 
 - [Sass](https://sass-lang.com/) - for custom component styles, variables, mixins, and complex styling logic
 - [Tailwind CSS](https://tailwindcss.com/) - for utility-based styling and layout
+- [MUI](https://mui.com/material-ui/) - for UI components
+- [ESLint](https://eslint.org/) for linting
 
 ## Getting Started
 
