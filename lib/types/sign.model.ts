@@ -1,5 +1,5 @@
 export interface ISign {
-  id: string;
+  id: number;
   signType: SignType;
   planet: string;
   traits: string[];

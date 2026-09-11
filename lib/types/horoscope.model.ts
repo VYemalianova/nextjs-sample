@@ -12,7 +12,7 @@ export enum HoroscopeType {
 }
 
 export interface IHoroscope {
-  id: string;
+  id: number;
   horoscopeType: HoroscopeType;
   signType: SignType;
   description: string;

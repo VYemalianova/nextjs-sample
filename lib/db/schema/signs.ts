@@ -23,7 +23,7 @@ export const signs = sqliteTable("signs", {
     .$type<string[]>()
     .notNull(),
   description: text().notNull(),
-  fact: text("fact").notNull(),
+  fact: text().notNull(),
   startMonth: integer("start_month").notNull(),
   startDay: integer("start_day").notNull(),
   endMonth: integer("end_month").notNull(),
