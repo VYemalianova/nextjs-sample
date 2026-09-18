@@ -8,7 +8,7 @@ import { HoroscopeType, IHoroscope } from "../../types/horoscope.model";
 
 import dummyData from "../dummy-data/horoscopes.json";
 import { SignType } from "../../types/sign.model";
-import { getHoroscopePeriod } from "../utils/horoscope-period";
+import { getHoroscopePeriod } from "../../utils/horoscope-period";
 
 const horoscopesData = dummyData as Partial<IHoroscope>[];
 
@@ -35,6 +35,8 @@ const seedHoroscopes = () => {
       startDate,
       endDate,
     };
+
+    console.log(dbHoroscope)
 
     db
       .insert(horoscopes)

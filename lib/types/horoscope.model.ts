@@ -19,3 +19,10 @@ export interface IHoroscope {
   startDate: string;
   endDate: string;
 }
+
+export interface IHoroscopeFilters {
+  horoscopeType?: HoroscopeType,
+  signType?: SignType,
+  startDate?: Date,
+  endDate?: Date,
+}
